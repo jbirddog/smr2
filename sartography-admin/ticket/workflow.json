@@ -1,0 +1,17 @@
+{
+    "description": "Ticket",
+    "display_name": "Ticket",
+    "display_order": 1,
+    "exception_notification_addresses": [],
+    "fault_or_suspend_on_exception": "fault",
+    "files": [],
+    "id": "ticket",
+    "is_master_spec": false,
+    "is_review": false,
+    "libraries": [],
+    "library": false,
+    "primary_file_name": "ticket.bpmn",
+    "primary_process_id": "Process_sartography_admin_ticket_ticket_bd2e724",
+    "process_group_id": "sartography-admin",
+    "standalone": false
+}

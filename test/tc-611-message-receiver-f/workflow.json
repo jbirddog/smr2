@@ -1,0 +1,17 @@
+{
+    "description": "TC-6.1.1 - Message receiver F",
+    "display_name": "TC-6.1.1 - Message receiver F",
+    "display_order": 45,
+    "exception_notification_addresses": [],
+    "fault_or_suspend_on_exception": "fault",
+    "files": [],
+    "id": "tc-611-message-receiver-f",
+    "is_master_spec": false,
+    "is_review": false,
+    "libraries": [],
+    "library": false,
+    "primary_file_name": "TC-6.1.1.bpmn",
+    "primary_process_id": "Process_TC611",
+    "process_group_id": "test",
+    "standalone": false
+}

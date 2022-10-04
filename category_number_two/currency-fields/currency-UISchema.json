@@ -1,0 +1,11 @@
+{
+  "invoiceAmount": {
+    "ui:autofocus": true,
+    "ui:column": "xs6"
+
+  },
+  "dueDate": {
+    "ui:widget": "date",
+    "ui:column": "xs6"
+  }
+}
