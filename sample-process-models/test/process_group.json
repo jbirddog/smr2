@@ -1,0 +1,7 @@
+{
+    "id": "test",
+    "display_name": "Testing",
+    "display_order": 0,
+    "admin": false,
+    "process_models": []
+}
