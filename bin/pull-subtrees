@@ -7,12 +7,3 @@ for subtree in "SpiffWorkflow" \
 do
   git subtree pull --prefix=$subtree git@github.com:sartography/$subtree.git main --squash
 done
-#)
-
-#for i in "${subtrees[@]}"
-#do
-#done
-
-#git subtree pull --prefix=spiffworkflow-backend git@github.com:sartography/spiffworkflow-backend.git main --squash
-#git subtree pull --prefix=spiffworkflow-frontend git@github.com:sartography/spiffworkflow-frontend.git main --squash
-#git subtree pull --prefix=sample-process-models git@github.com:sartography/sample-process-models.git main --squash
