@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for subtree in "SpiffWorkflow" \
+  "spiffworkflow-backend" \
+  "spiffworkflow-frontend" \
+  "sample-process-models"
+do
+  git subtree pull --prefix=$subtree git@github.com:sartography/$subtree.git main --squash
+done
