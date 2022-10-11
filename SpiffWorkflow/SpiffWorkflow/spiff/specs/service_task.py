@@ -20,7 +20,7 @@ class ServiceTask(SpiffBpmnTask, ServiceTask):
 
         escaped_spec_name = task.task_spec.name.replace('-', '_')
 
-        return f'spiff__{escaped_spec_name}_result'
+        return f'spiff__{escaped_spec_name}_resultXXX'
 
     def _execute(self, task):
         def evaluate(param):
